@@ -14,7 +14,7 @@ This project aims to detect fraudulent credit card transactions using machine le
 - **Model evaluation** with classification report and confusion matrix.
 - **Visualizations** for model insights and fraud analysis.
 
-![Screenshot 2025-03-21 183448](https://github.com/user-attachments/assets/7a5ba77b-b792-409c-a4cd-5a167285cb2d)
+![Screenshot 2025-03-21 183556](https://github.com/user-attachments/assets/2e38be7b-55f6-4090-9352-7b9f73cc7be9)
 
 ## Dataset
 The dataset used is **Kaggle's Credit Card Fraud Dataset**, which consists of:
