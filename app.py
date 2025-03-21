@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import gdown
+import os
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report, confusion_matrix
@@ -11,6 +13,23 @@ import seaborn as sns
 
 # Set page configuration for a professional look
 st.set_page_config(page_title="Credit Card Fraud Detection", layout="wide", page_icon="💳")
+
+# Function to download dataset from Google Drive
+def download_data():
+    file_id = "16eT5tRWJ6cMT2A-0-VxAKSu-e2NjaIqv"  # https://drive.google.com/file/d/16eT5tRWJ6cMT2A-0-VxAKSu-e2NjaIqv/view?usp=sharingReplace with actual file ID
+    output = "creditcard.csv"
+    if not os.path.exists(output):
+        gdown.download(f"https://drive.google.com/uc?id={file_id}", output, quiet=False)
+    return output
+
+
+# Load and preprocess data
+@st.cache_data
+def load_data():
+    dataset_path = download_data()
+    data = pd.read_csv(dataset_path)
+    return data
+
 
 # Custom CSS for better UI
 st.markdown("""
@@ -24,14 +43,6 @@ st.markdown("""
     .contact-icon {vertical-align: middle; margin-right: 5px;}
     </style>
 """, unsafe_allow_html=True)
-
-
-# Load and preprocess data
-@st.cache_data
-def load_data():
-    data = pd.read_csv("creditcard.csv")  # Replace with your dataset path
-    return data
-
 
 # Train the model
 @st.cache_resource
