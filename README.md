@@ -3,6 +3,9 @@
 ## Overview
 This project aims to detect fraudulent credit card transactions using machine learning. It utilizes the **Kaggle Credit Card Fraud Dataset**, which contains anonymized transaction features. The model is built using **XGBoost**, with handling of class imbalance using **SMOTE**. The app is deployed using **Streamlit** for an interactive user interface.
 
+![image](https://github.com/user-attachments/assets/5ff3574c-f8e1-4a72-9da9-9f2cbfa3e73a)
+
+
 ## Features
 - **Real-time fraud detection** using a trained XGBoost model.
 - **Interactive UI** built with Streamlit.
@@ -24,8 +27,8 @@ To run this project locally, follow these steps:
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/yourusername/credit-card-fraud-detection.git
-cd credit-card-fraud-detection
+git clone https://github.com/Shhubhamvishwakarma05/Fraud_Detection.git
+cd Fraud_Detection
 ```
 
 ### 2️⃣ Install dependencies
