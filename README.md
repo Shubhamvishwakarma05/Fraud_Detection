@@ -5,7 +5,7 @@ This project aims to detect fraudulent credit card transactions using machine le
 
 ![Screenshot 2025-03-21 183448](https://github.com/user-attachments/assets/ea4068a8-ebd4-4e8d-8985-f1dd74d63bd5)
 
-![Screenshot 2025-03-21 183448](https://github.com/user-attachments/assets/96ee9f63-78c3-4bf9-891b-1cdef66159d4)
+
 
 ## Features
 - **Real-time fraud detection** using a trained XGBoost model.
