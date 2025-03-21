@@ -3,10 +3,9 @@
 ## Overview
 This project aims to detect fraudulent credit card transactions using machine learning. It utilizes the **Kaggle Credit Card Fraud Dataset**, which contains anonymized transaction features. The model is built using **XGBoost**, with handling of class imbalance using **SMOTE**. The app is deployed using **Streamlit** for an interactive user interface.
 
-![image](https://github.com/user-attachments/assets/abcf4b6c-a93f-49cb-ba9f-8e3427a7053c)
+![Screenshot 2025-03-21 183448](https://github.com/user-attachments/assets/ea4068a8-ebd4-4e8d-8985-f1dd74d63bd5)
 
-![image](https://github.com/user-attachments/assets/6452c70e-923d-401b-be3a-e774f66a09a9)
-
+![Screenshot 2025-03-21 183448](https://github.com/user-attachments/assets/96ee9f63-78c3-4bf9-891b-1cdef66159d4)
 
 ## Features
 - **Real-time fraud detection** using a trained XGBoost model.
@@ -15,7 +14,7 @@ This project aims to detect fraudulent credit card transactions using machine le
 - **Model evaluation** with classification report and confusion matrix.
 - **Visualizations** for model insights and fraud analysis.
 
-![image](https://github.com/user-attachments/assets/f7e1543a-16b4-437b-abb1-a141ad065d7d)
+![Screenshot 2025-03-21 183448](https://github.com/user-attachments/assets/7a5ba77b-b792-409c-a4cd-5a167285cb2d)
 
 ## Dataset
 The dataset used is **Kaggle's Credit Card Fraud Dataset**, which consists of:
@@ -24,8 +23,7 @@ The dataset used is **Kaggle's Credit Card Fraud Dataset**, which consists of:
 - `Amount`: The transaction amount.
 - `Class`: The target variable (0 = legitimate, 1 = fraudulent).
 
-- ![image](https://github.com/user-attachments/assets/31231419-6977-49c2-a030-1ef0c64ee9ba)
-
+![Screenshot 2025-03-21 183239](https://github.com/user-attachments/assets/79a4a9dd-9837-4337-8df6-dd6ae79d5903)
 
 Due to the highly imbalanced nature of the dataset (fraud cases are rare), **SMOTE** (Synthetic Minority Over-sampling Technique) is applied to balance the dataset.
 
