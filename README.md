@@ -3,7 +3,9 @@
 ## Overview
 This project aims to detect fraudulent credit card transactions using machine learning. It utilizes the **Kaggle Credit Card Fraud Dataset**, which contains anonymized transaction features. The model is built using **XGBoost**, with handling of class imbalance using **SMOTE**. The app is deployed using **Streamlit** for an interactive user interface.
 
-![image](https://github.com/user-attachments/assets/5ff3574c-f8e1-4a72-9da9-9f2cbfa3e73a)
+![image](https://github.com/user-attachments/assets/abcf4b6c-a93f-49cb-ba9f-8e3427a7053c)
+
+![image](https://github.com/user-attachments/assets/6452c70e-923d-401b-be3a-e774f66a09a9)
 
 
 ## Features
@@ -13,12 +15,17 @@ This project aims to detect fraudulent credit card transactions using machine le
 - **Model evaluation** with classification report and confusion matrix.
 - **Visualizations** for model insights and fraud analysis.
 
+![image](https://github.com/user-attachments/assets/f7e1543a-16b4-437b-abb1-a141ad065d7d)
+
 ## Dataset
 The dataset used is **Kaggle's Credit Card Fraud Dataset**, which consists of:
 - `Time`: Seconds elapsed between the transaction and the first transaction.
 - `V1` to `V28`: Principal Components derived from PCA (original features are anonymized).
 - `Amount`: The transaction amount.
 - `Class`: The target variable (0 = legitimate, 1 = fraudulent).
+
+- ![image](https://github.com/user-attachments/assets/31231419-6977-49c2-a030-1ef0c64ee9ba)
+
 
 Due to the highly imbalanced nature of the dataset (fraud cases are rare), **SMOTE** (Synthetic Minority Over-sampling Technique) is applied to balance the dataset.
 
