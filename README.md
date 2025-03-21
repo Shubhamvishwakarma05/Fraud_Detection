@@ -23,7 +23,7 @@ The dataset used is **Kaggle's Credit Card Fraud Dataset**, which consists of:
 - `Amount`: The transaction amount.
 - `Class`: The target variable (0 = legitimate, 1 = fraudulent).
 
-![Screenshot 2025-03-21 183239](https://github.com/user-attachments/assets/b37ea156-67e9-4008-8f78-eb0c9ee0de28)
+![Screenshot 2025-03-21 183239](https://github.com/user-attachments/assets/6944b9c3-b6d5-4f0b-9a6c-9440e673e2b2)
 
 Due to the highly imbalanced nature of the dataset (fraud cases are rare), **SMOTE** (Synthetic Minority Over-sampling Technique) is applied to balance the dataset.
 
